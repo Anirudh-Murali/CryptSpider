@@ -27,6 +27,8 @@ Open a terminal/command promt and run the following commands
  
  ## Running the script
  
+ We have to first download all the necessary data. To do this we will run the first script : data_Scrapper.py
+ 
  In the project directory open coins.csv and write the names of the required coins. While doing so,please keep the following points in mind:
  1. Do not open the file using excel. Just open it using a notepad.
  2. Ensure that coins name is in the same format as that mentioned on the url
@@ -35,6 +37,12 @@ Open a terminal/command promt and run the following commands
  just keep note of this and no unnecessary errors will pop up.
  3. Open a terminal and run the python script
   * `python data_Scrapper.py`
+  
+ Now to apply selection criteria run the second script
+ * `python select.py`
+ 
+ Note that the all the data will be stored inside the test folder in the Output folder.
+ The result of the second script will be written to a file named test.csv inside the Results folder
   
  ## Future version
  
