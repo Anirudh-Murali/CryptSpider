@@ -155,7 +155,7 @@ def run_it(folder,folder_name):
 
 
 #set folder to import files from
-folder_name = '1MIL-10MIL'
+folder_name = 'test'
 folderpath = r'/media/batman/Stuff/Projects/TE/Stirring Minds/API/Data_Scrapper/Output/'+str(folder_name)
 folder = os.listdir(folderpath)
 run_it(folder,folder_name)
