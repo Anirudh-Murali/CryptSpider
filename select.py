@@ -150,7 +150,7 @@ def run_it(folder,folder_name):
     print ("-----------------------------------------Selected coin:----------------------------------------------")
     print (selected_coins)
     selected_coins = pd.DataFrame(selected_coins)
-    selected_coins.to_csv("Results/"+folder_name+".csv")
+    selected_coins.to_csv("Result/"+folder_name+".csv")
     print(len(selected_coins))
 
 
