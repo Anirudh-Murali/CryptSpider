@@ -1,7 +1,10 @@
-# DataMiningforCrypto
+# CrytpSpider
+
 
 An easy to use data scrapping tool to automate data gathering to help you devise trade stratergies.
-All the data is scrapped from the reputed website https://coinmarketcap.com/ . The current version 
+All the data is scrapped from the reputed website https://coinmarketcap.com/ . The current version also supports shortlisting coins as per various stratergies. Use the power of python to analyse huge amounts of data in a few minutes with the results.
+
+Fututre versions will include tools to visualize and Data Science Models
 
 # How to use
 
